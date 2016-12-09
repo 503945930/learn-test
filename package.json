@@ -1,0 +1,26 @@
+{
+  "name": "test-a-node-restful-api-with-mocha-and-chai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+  },
+  "scripts": {
+    "start": "cross-env NODE-ENV=dev && node server.js",
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "config": "^1.24.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "cross-env": "^3.1.3"
+  }
+}
